@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'un étudiant en BTS SIO spécialisé en SISR (Solutions d'Infrastructure, Systèmes et Réseaux)">
+    <meta name="keywords" content="BTS SIO, SISR, portfolio, informatique, réseau, systèmes, administration">
+    <meta name="author" content="Étudiant BTS SIO">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Portfolio BTS SIO - Spécialisation SISR">
+    <meta property="og:description" content="Portfolio d'un étudiant en BTS SIO spécialisé en Solutions d'Infrastructure, Systèmes et Réseaux">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- Preload critical images -->
+    <link rel="preload" href="images/profile.jpg" as="image">
+    
+    <title>Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home" aria-label="Retour à l'accueil">Portfolio</a>
+            </div>
+            <ul class="nav-links" role="menu">
+                <li role="menuitem"><a href="#home">Accueil</a></li>
+                <li role="menuitem"><a href="#about">À propos</a></li>
+                <li role="menuitem"><a href="#cv">CV</a></li>
+                <li role="menuitem"><a href="#skills">Compétences</a></li>
+                <li role="menuitem"><a href="#projects">Projets</a></li>
+                <li role="menuitem"><a href="#certifications">Certifications</a></li>
+                <li role="menuitem"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" aria-label="Basculer le thème clair/sombre" role="button" tabindex="0">
+                <i class="fas fa-moon" aria-hidden="true"></i>
+                <i class="fas fa-sun" aria-hidden="true"></i>
+            </div>
+            <div class="hamburger" aria-label="Menu mobile" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Bienvenue sur mon Portfolio</h1>
+            <p class="subtitle">Étudiant en BTS SIO Sourakhata Sidibe</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">Voir mes projets</a>
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Je suis un étudiant passionné en <strong>BTS SIO (Services Informatiques aux Organisations), spécialisé en SISR (Solutions d'Infrastructure, Systèmes et Réseaux).</strong></p>
+                    <p>Mon objectif est de développer des compétences solides en administration des systèmes et des réseaux pour garantir la sécurité et les performances des infrastructures informatiques.</p>
+                    <p>Actuellement en formation, je développe mes compétences en :</p>
+                    <ul>
+                        <li>Administration et maintenance des systèmes Windows Server et Linux</li>
+                        <li>Configuration et sécurisation des infrastructures réseau</li>
+                        <li>Déploiement de solutions de virtualisation et cloud computing</li>
+                        <li>Mise en place de stratégies de sécurité et de continuité d'activité</li>
+                        <li>Automatisation via scripting (PowerShell, Bash)</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Photo de profil" loading="lazy" width="500" height="500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv">
+        <div class="container">
+            <h2>Mon CV</h2>
+            <div class="cv-content">
+                <div class="cv-text">
+                    <p>Consultez mon CV pour plus de détails sur mon parcours académique, mes compétences techniques, et mes expériences professionnelles.</p>
+                    <a href="#" class="btn primary cv-btn" id="openCV">
+                        <i class="fas fa-eye"></i> Consulter mon CV
+                    </a>
+                </div>
+                <div class="cv-preview">
+                    <div class="cv-preview-content">
+                        <div class="cv-section">
+                            <h3><i class="fas fa-user-graduate"></i> Formation</h3>
+                            <div class="cv-item">
+                                <h4>BTS SIO - Option SISR</h4>
+                                <p class="cv-year">2024 - 2026</p>
+                                <p>Lycée René Descartes, Paris</p>
+                            </div>
+                        </div>
+                        <div class="cv-section">
+                            <h3><i class="fas fa-briefcase"></i> Expérience</h3>
+                            <div class="cv-item">
+                                <h4>Stagiaire chez Sinatek Gaming</h4>
+                                <p class="cv-year">Septembre 2023 - octobre 2023</p>
+                                <p>Sinatek Gaming 75012, Paris</p>
+                            </div>
+                        </div>
+                        <div class="cv-section">
+                            <h3><i class="fas fa-laptop-code"></i> Compétences Clés</h3>
+                            <div class="cv-skills">
+                                <span>Administration Système</span>
+                                <span>Réseaux</span>
+                                <span>Sécurité</span>
+                                <span>Virtualisation</span>
+                                <span>Support Technique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Administration Système</h3>
+                    <p>Windows Server & Linux</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Configuration Réseau</h3>
+                    <p>Routeurs, Switches, VLANs</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Virtualisation</h3>
+                    <p>VMware, VirtualBox</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Services Réseau</h3>
+                    <p>Active Directory, DHCP, DNS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Monitoring</h3>
+                    <p>Nagios, Zabbix, Grafana</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersécurité</h3>
+                    <p>Pare-feu, IDS/IPS, VPN</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Scripting</h3>
+                    <p>PowerShell, Bash</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>AWS, Azure, Administration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="réseau">Réseau</button>
+                <button class="filter-btn" data-filter="système">Système</button>
+                <button class="filter-btn" data-filter="sécurité">Sécurité</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="réseau">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Infrastructure Réseau" loading="lazy" width="800" height="450">
+                    </div>
+                    <div class="project-info">
+                        <h3>Infrastructure Réseau</h3>
+                        <p>Mise en place d'une infrastructure réseau complète avec VLANs, routage et sécurisation des accès.</p>
+                        <div class="project-tech">
+                            <span>Cisco</span>
+                            <span>VLANs</span>
+                            <span>Routage</span>
+                        </div>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="système">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Virtualisation de Serveurs" loading="lazy" width="800" height="450">
+                    </div>
+                    <div class="project-info">
+                        <h3>Virtualisation de Serveurs</h3>
+                        <p>Déploiement d'une infrastructure virtualisée pour optimiser les ressources et améliorer la disponibilité.</p>
+                        <div class="project-tech">
+                            <span>VMware</span>
+                            <span>VirtualBox</span>
+                            <span>Docker</span>
+                        </div>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="sécurité">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Sécurisation d'Infrastructure" loading="lazy" width="800" height="450">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sécurisation d'Infrastructure</h3>
+                        <p>Mise en place d'une solution de sécurité complète avec pare-feu, IDS/IPS et surveillance réseau.</p>
+                        <div class="project-tech">
+                            <span>pfSense</span>
+                            <span>Suricata</span>
+                            <span>Zabbix</span>
+                        </div>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>BTS SIO - SISR</h3>
+                        <p>Services Informatiques aux Organisations - Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                        <span class="certification-date">2024 - 2026</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Certification Cybersécurité</h3>
+                        <p>Formation aux bonnes pratiques et aux techniques de sécurisation des infrastructures</p>
+                        <span class="certification-date">2024 - 2026</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Certification Cisco CCNA</h3>
+                        <p>Configuration, dépannage et sécurisation des réseaux avec les équipements Cisco</p>
+                        <span class="certification-date">2024 - 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Envoyer</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>sourakhata.sidibe.pro@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>07 49 50 51 17</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Paris, France</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>BTS SIO - Lycée René Descartes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>&copy; 2024 Portfolio BTS SIO. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- CV Modal Popup -->
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Mon CV</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="cv-viewer">
+                    <iframe src="documents/CV_Sourakhata_Sidibe.pdf" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <a href="documents/CV_Sourakhata_Sidibe.pdf" class="btn primary" download>
+                        <i class="fas fa-download"></i> Télécharger
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
